@@ -1,0 +1,20 @@
+name: Notify parent on push
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  dispatch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger parent deploy
+        env:
+          GH_TOKEN: ${{ secrets.PARENT_REPO_TOKEN }} # PAT with repo access to tom-h-f/maths-notes-site
+        run: |
+          curl -sS -X POST \
+            -H "Authorization: token ${GH_TOKEN}" \
+            -H "Accept: application/vnd.github+json" \
+            -H "Content-Type: application/json" \
+            https://api.github.com/repos/tom-h-f/maths-notes-site/dispatches \
+            -d '{"event_type":"submodule-updated","client_payload":{"submodule":"content","ref":"${{ github.ref }}","sha":"${{ github.sha
