@@ -6,7 +6,7 @@
   2) Practice: targeted problems with solutions.
   3) Code: Julia exploration to test/visualize.
   4) Review: error log + spaced repetition.
-  5) penis2
+  5) penis3
 
 ---
 
