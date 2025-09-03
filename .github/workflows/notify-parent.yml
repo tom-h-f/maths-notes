@@ -17,4 +17,4 @@ jobs:
             -H "Accept: application/vnd.github+json" \
             -H "Content-Type: application/json" \
             https://api.github.com/repos/tom-h-f/maths-notes-site/dispatches \
-            -d '{"event_type":"submodule-updated","client_payload":{"submodule":"content","ref":"${{ github.ref }}","sha":"${{ github.sha
+            -d '{"event_type":"submodule-updated","client_payload":{"submodule":"content","ref":"${{ github.ref }}","sha":"${{ github.sha }}"}}'
