@@ -1,6 +1,5 @@
 
 ## Overview
-- Goal: Reach an engineering-undergrad-level math foundation at a steady 3–10 hours/week.
 - Structure: Phase-based (no calendar dates). Move forward when you meet mastery criteria.
 - Learning loop each session:
   1) Concept: read/watch, derive key ideas.
