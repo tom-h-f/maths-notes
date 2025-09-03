@@ -1,26 +1,3 @@
-# Engineering Math Roadmap (Phase-Based, 3–10 hrs/week, Julia-Focused)
-## Table of Contents
-- [Overview](#overview)
-- [Tooling Setup](#tooling-setup)
-- [Mastery Criteria](#mastery-criteria)
-- [Resource Key](#resource-key)
-- [Phase 0: Algebra/Precalculus Refresh](#phase-0-algebraprecalculus-refresh)
-- [Phase 1: Single-Variable Calculus](#phase-1-single-variable-calculus)
-- [Phase 2: Introductory Proofs (Parallel, Light)](#phase-2-introductory-proofs-parallel-light)
-- [Phase 3: Linear Algebra](#phase-3-linear-algebra)
-- [Phase 4: Multivariable Calculus](#phase-4-multivariable-calculus)
-- [Phase 5: Ordinary Differential Equations](#phase-5-ordinary-differential-equations)
-- [Phase 6: Probability and Statistics](#phase-6-probability-and-statistics)
-- [Phase 7: Discrete Mathematics (CS-Focused)](#phase-7-discrete-mathematics-cs-focused)
-- [Phase 8: Numerical Methods](#phase-8-numerical-methods)
-- [Optional Depth Tracks](#optional-depth-tracks)
-- [Assessment and Progression](#assessment-and-progression)
-- [Flexible Weekly Structure](#flexible-weekly-structure)
-- [How to Choose Resources](#how-to-choose-resources)
-- [Getting Started: Next Steps](#getting-started-next-steps)
-- [Notes](#notes)
-
----
 
 ## Overview
 - Goal: Reach an engineering-undergrad-level math foundation at a steady 3–10 hours/week.
